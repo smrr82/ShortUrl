@@ -1,7 +1,7 @@
 <?php /* Source By @Roonx_Team */
 
-define('API_KEY', 'TOKEN');
-$admin = "ADMIN";
+define('API_KEY', '328230583:AAH5FAqV47XbamvhfYMFnAEvKjO-PrHNdYs');
+$admin = 232845558 ;
 function roonx($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
